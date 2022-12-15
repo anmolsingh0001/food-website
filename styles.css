@@ -1,0 +1,130 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+
+.ott{
+  height: 40vh;
+  width: 30vw;
+}
+
+.set{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#head{
+  height: 20vh;
+  width: 100vw;
+  display: flex;
+  color: white;
+  margin-bottom: 5%;
+}
+
+body{
+background-color: black;
+}
+
+#input{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2%;
+}
+
+button{
+  background-color: green;
+  color: white;
+  border-radius: 10%;
+  height: 73%;
+}
+
+input{
+  height: 3.2vh;
+
+}
+
+#odd{
+  height: 20vh;
+  width: 50vw;
+  text-align: center;
+  position: absolute;
+  justify-content: center;
+  /* border: 5px solid; */
+  border-radius: 0% 0% 50% 50%;
+  right: 20%;
+  display: inline-grid;
+  box-shadow:0 4px 8px 0 white, 0 6px 20px 0 white;
+}
+
+
+#grid{
+  display: grid;
+  grid-template-columns: repeat(3,150px);
+  grid-row-gap: 4%;
+  margin-left: 2%;
+  color: white;
+}
+
+#main{
+  margin-bottom: 3%;
+  background-color: green;
+  margin-left: 35%;
+  margin-right: 35%;
+  border-radius: 5%;
+  height: 60vh;
+  box-shadow:0 4px 8px 0 white, 0 6px 20px 0 white;
+}
+
+#container{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-column-gap: 4.5%;
+  grid-row-gap: 2%;
+  color: white;
+  width: 60vw;
+  margin-left: 2%;
+  font-size: 30px;
+}
+
+#results{
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 2%;
+}
+
+.name{
+  color: black;
+  font-size: 40px;
+  text-align: center;
+}
+
+.naam{
+  color: black;
+  font-size: 40px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.random{
+  height: 45vh;
+  width: 30vw;
+  border-radius: 5%;
+}
+
+.toset{
+  background-color: green;
+  height: 60vh;
+  width: 30vw;
+  border-radius: 5% ;
+  box-shadow:0 4px 8px 0 white, 0 6px 20px 0 white;
+}
+
+.centre{
+  color: black;
+  text-align: center;
+}
